@@ -1,0 +1,81 @@
+* {
+    padding: 0px auto;
+    margin: 0px auto;
+}
+body{
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+header nav{
+    background-color: hwb(246 21% 61%);
+     overflow: hidden;
+ }
+ header nav ul{
+     list-style: none;
+ }
+ header nav ul li{
+     float: left;
+ }
+ header nav ul li a {
+    padding: 5px 10px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+ }
+ header nav ul li:hover{
+     background: #75acec;
+ }
+ .lista{
+     margin: 8px auto;
+     display: flex;
+     float:left;
+ }
+.folder .folder1 .pdf-list{
+    background-color: #75acec;
+}
+.folder{
+    background-color: #2d2c5f;
+    color: white;
+    text-align: 10px;
+}
+.folder h3:hover{
+    background: #3540a1;
+}
+.folder h3:active{
+    background-color: rgb(90, 76, 170);
+}
+.folder h3{
+    cursor: pointer;
+}
+.pdf-list{
+    list-style-type: none;
+    padding-left: 20px;
+}
+.pdf-list.hidden{
+    display: none;
+}
+#pdfs{
+    display: none;
+}
+h3{
+    text-decoration: none;
+}
+.primer-plano{
+    background-color: #423064;
+} 
+.primer-plano2{
+    background-color: #342146;
+} 
+.xls {
+    width: 210vh;
+     height: 100vh;
+}
+ul #folder56 img{
+    height: 500px;
+    height: 400px;
+}
